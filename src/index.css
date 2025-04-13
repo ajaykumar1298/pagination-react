@@ -1,0 +1,31 @@
+.product-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.product-img{
+    width: 200px;
+    height: 200px;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-number{
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.pages{
+    padding: 10px;
+}
+.active{
+    background-color: green;
+    color: white;
+}
